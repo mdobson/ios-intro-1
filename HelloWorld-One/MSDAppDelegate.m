@@ -7,6 +7,7 @@
 //
 
 #import "MSDAppDelegate.h"
+#import "MSDGreeter.h"
 
 @implementation MSDAppDelegate
 
@@ -16,6 +17,13 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    MSDGreeter *greeter = [[MSDGreeter alloc] init];
+
+    NSLog(@"Instance: %@" ,[greeter HelloFromInstance]);
+           
+    NSLog(@"Class: %@", [MSDGreeter HelloFromClass]);
+    
     return YES;
 }
 

@@ -21,6 +21,7 @@
 		63C846D317CBC6ED008E0FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C846B417CBC6ED008E0FC8 /* Foundation.framework */; };
 		63C846DB17CBC6ED008E0FC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63C846D917CBC6ED008E0FC8 /* InfoPlist.strings */; };
 		63C846DE17CBC6ED008E0FC8 /* HelloWorld_OneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C846DD17CBC6ED008E0FC8 /* HelloWorld_OneTests.m */; };
+		63C846E917CBC857008E0FC8 /* MSDGreeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C846E817CBC857008E0FC8 /* MSDGreeter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		63C846DA17CBC6ED008E0FC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63C846DC17CBC6ED008E0FC8 /* HelloWorld_OneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorld_OneTests.h; sourceTree = "<group>"; };
 		63C846DD17CBC6ED008E0FC8 /* HelloWorld_OneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorld_OneTests.m; sourceTree = "<group>"; };
+		63C846E717CBC857008E0FC8 /* MSDGreeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDGreeter.h; sourceTree = "<group>"; };
+		63C846E817CBC857008E0FC8 /* MSDGreeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDGreeter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				63C846C117CBC6ED008E0FC8 /* MSDAppDelegate.h */,
 				63C846C217CBC6ED008E0FC8 /* MSDAppDelegate.m */,
 				63C846B917CBC6ED008E0FC8 /* Supporting Files */,
+				63C846E717CBC857008E0FC8 /* MSDGreeter.h */,
+				63C846E817CBC857008E0FC8 /* MSDGreeter.m */,
 			);
 			path = "HelloWorld-One";
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				63C846BF17CBC6ED008E0FC8 /* main.m in Sources */,
 				63C846C317CBC6ED008E0FC8 /* MSDAppDelegate.m in Sources */,
+				63C846E917CBC857008E0FC8 /* MSDGreeter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
