@@ -5,6 +5,7 @@
 //  Created by Matthew Dobson on 8/26/13.
 //  Copyright (c) 2013 Matthew Dobson. All rights reserved.
 //
+// This is your app delegate. This is the object that bridges your iOS app and the Operating System itself. 
 
 #import "MSDAppDelegate.h"
 #import "MSDGreeter.h"
